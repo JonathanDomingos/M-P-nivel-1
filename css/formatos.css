@@ -1,0 +1,27 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#menu-horizontal ul{
+    list-style: none;
+    padding: 0;
+    background-color: #003F63;
+}
+
+#menu-horizontal ul li{
+    display: inline;
+}
+
+#menu-horizontal ul li a{
+    color: #f2b138;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .6s;
+}
+#menu-horizontal ul li a:hover{
+    background-color:#d9d9d9 ;
+}
